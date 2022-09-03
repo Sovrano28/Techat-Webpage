@@ -35,6 +35,11 @@ a {
     color: white;
 }
 
+#top-footer button {
+    background-color: hsl(268deg 63% 13%);
+    color: white;
+}
+
 #bottom-footer {
     color: white;
     background-color: hsl(268deg 63% 13%);
