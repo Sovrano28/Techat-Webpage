@@ -13,7 +13,40 @@
     <title>Techat Landing Page</title>
 </head>
 <body>
-    <section id="hero">
+    <header id="navbar-section">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="images/techat-white-t.svg" alt="techat navbar logo" width="30px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+                    aria-expanded="false" aria-label="Toggle navigation" aria-controls="#navbar-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ATM/Branch Locator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <section id="hero">
         <div class="container-fluid p-4">
             <div class="container">
                 <div class="row">
@@ -50,10 +83,185 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section id="hero">
+        <div class="container-fluid p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Start Banking Today</h1>
+                        <p>
+                            <strong>Introducing the Techat Banking</strong><br/>
+                            Banking for the people, by the people and of the people with
+                            utmost better services
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-4 text-center py-3 py-sm-0 px-sm-4 p-lg-0">
+                        <a href="#">
+                            <img src="images/Google-play.svg" alt="Get it on Google page image" class="img-fluid appstore-imgs" id="google-pg-img">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center py-3 py-sm-0 px-sm-4 p-lg-0">
+                        <a href="#">
+                            <img src="images/Apple-store.svg" alt="Download on the Aple store image" class="img-fluid appstore-imgs">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center py-3 py-sm-0 px-sm-4 p-lg-0">
+                        <a href="#">
+                            <img src="images/web-browser.svg" alt="Web browser" class="img-fluid appstore-imgs">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id="top-hero-carousel">
+        <div class="container-fluid">
+            <div id="homepage-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <a href="#">
+                            <img src="Images/slideshow/slide1.jpg" class="d-block w-100" alt="woman swinging her hair" height="">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Bank with freedom</h1>
+                            <p>Free yourself from unfair bank charges</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <a href="#">
+                            <img src="images/slideshow/slide2.jpeg" class="d-block w-100" alt="woman drinking water from a bottle">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Stay cool 'cus we've got you covered</h1>
+                            <p>interest up to 15% per month on our Real-save account</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <a href="#">
+                            <img src="images/slideshow/slide3.png" class="d-block w-100" alt="man smilling in the midst of balloons">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Online banking has never been more fun</h1>
+                            <p>Get free atm card delivery, free transfer up to 30 times in a month</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <a href="#">
+                            <img src="images/slideshow/slide4.png" class="d-block w-100" alt="female caterer smilling">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>We help your business grow</h1>
+                            <p>Techat is the number one friends of SMEs in Nigeria has testified by about 1 million Nigerians.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <a href="#">
+                            <img src="images/slideshow/slide5.jpg" class="d-block w-100" alt="filled warehouse with a transporting machine">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>We help you reach the height you truly deserve</h1>
+                            <p>Scaling you up like never before</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <a href="#">
+                            <img src="images/slideshow/slide6.jpg" class="d-block w-100" alt="person using an atm">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Your transactions are secured</h1>
+                            <p>Let's help you make secured and safe transaction free from any threat of snoopers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#homepage-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homepage-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="mt-5" id="illustrations">
+        <div class="container" id="free-card-info">
+            <div class="row">
+                <div class="col-md-6 p-3">
+                    <div class="ill-imgs text-center">
+                        <img src="images/illustrations/freecard.png" alt="man with a techat card" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 p-3">
+                    <h3>In your hand in no time</h3>
+                    <p>Get your Techat atm card free and immidiately you register an account<br>
+                     whether online or onsite!<br>
+                     Zoom! in no time!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="easyclick-section">
+            <div class="row">
+                <div class="col-md-6 p-3 order-2 order-md-1">
+                    <h3>
+                        All your troubles solved with just a single click
+                    </h3>
+                    <p>
+                        Send and receive money, buy data, pay bills on our mobile app available on both android and iOS devices
+                    </p>
+                </div>
+                <div class="col-md-6 p-3 order-1 order-md-2">
+                    <div class="ill-imgs">
+                        <img src="images/illustrations/hand1.svg" alt="a large hand clicking a button illustration" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="savemoney">
+            <div class="row">
+                <div class="col-md-6 px-3 pt-3">
+                    <div class="ill-imgs">
+                        <img src="images/illustrations/savemoney1.png" alt="box of dollar cash and note" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 px-3 pt-md-3">
+                    <h3>Save like never before</h3>
+                    <p>
+                        Our Real-save savings account makes you really save for<br>
+                        yourself and not your for your other banks
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="px-2 px-md-4" id="comparism-table">
         <div class="container">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center mt-2">
                 <h3>Experience the best!</h3>
             </div>
             <table class="table text-center mb-2 mb-md-5">
@@ -61,7 +269,7 @@
                   <tr>
                     <th scope="col">Other Banks</th>
                     <th scope="col"></th>
-                    <th scope="col">Kuda Bank</th>
+                    <th scope="col" style="color: #581c9c;">Kuda Bank</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -143,6 +351,21 @@
             </div>
         </div>
     </section>
+
+    <!-- <section id="our-partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-12"><h1>Our Partners</h1></div>
+                <div class="col-md-2"><img src="" alt="visa logo" class="img-fluid partners-imgs"></div>
+                <div class="col-md-2"><img src="" alt="mastercard logo" class="img-fluid partners-imgs"></div>
+                <div class="col-md-2"><img src="" alt="bbc logo" class="img-fluid partners-imgs"></div>
+                <div class="col-md-2"><img src="" alt="kuda logo" class="img-fluid partners-imgs"></div>
+                <div class="col-md-2"><img src="" alt="arik air logo" class="img-fluid partners-imgs"></div>
+                <div class="col-md-2"><img src="techathon-group1-team9\TechatWithB5\images\infosys.png" alt="infosystem logo" class="img-fluid partners-imgs"></div>
+            </div>
+        </div>
+        <div class="container"></div>
+    </section> -->
 
     <footer>
         <div id="top-footer">
