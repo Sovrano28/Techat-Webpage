@@ -101,6 +101,12 @@ a {
     } */
 }
 
+@media screen and (max-width:539px) {
+    #comparism-table tbody {
+        font-size: 0.8rem;
+    }
+}
+
 @media screen and (max-width:471px) {
     #comparism-table tbody {
         font-size: 0.7rem;
