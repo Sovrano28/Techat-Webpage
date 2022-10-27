@@ -14,6 +14,10 @@ body {
     color: #40196d;
 }
 
+#hero p {
+    font-size: 40px;
+}
+
 #hero strong {
     font-size: 45px;
     font-weight: 600;
@@ -24,16 +28,28 @@ body {
     font-weight: 700;
 }
 
-#hero p {
-    font-size: 40px;
-}
-
 #navbar-section a {
     color: #40196d;
 }
 
 #get-started .appstore-imgs {
     max-width: 50%;
+}
+
+#illustrations h3 {
+    color: #581c9c;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#illustrations p {
+    font-weight: 400;
+}
+
+#comparism-table h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #581c9c;
 }
 
 #top-footer {
@@ -60,18 +76,19 @@ a {
     background-color: hsl(268deg 63% 13%);
 }
 
-#illustrations h3 {
-    color: #581c9c;
-    font-size: 35px;
-    font-weight: 600;
-}
 
-#illustrations p {
-    font-weight: 400;
-}
 
-#comparism-table h3 {
-    font-size: 30px;
-    font-weight: 400;
-    color: #581c9c;
+@media screen and (max-width:767px) {
+    #hero h1 {
+        font-size: 45px;
+    }
+
+    #hero p {
+        font-size: 30px;
+    }
+    
+    #hero strong {
+        font-size: 33.75px;
+        font-weight: 600;
+    }
 }
