@@ -91,4 +91,8 @@ a {
         font-size: 33.75px;
         font-weight: 600;
     }
+
+    #comparism-table tbody {
+        font-size: smaller;
+    }
 }
