@@ -96,9 +96,10 @@ a {
         font-size: smaller;
     }
 
-    /* #free-card-info .img-fluid {
-        max-height: 10%;
-    } */
+    #free-card-info .img-fluid {
+        max-width: 30%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width:539px) {
