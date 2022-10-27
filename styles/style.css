@@ -87,8 +87,16 @@ a {
 }
 /*End*/
 
-/* Other screen sizes */
-/* less than (<) 767px screen width */
+
+/* OTHER SCREEN WIDTH SIZES CUSTOMISATION */
+/* less than (<) 992px screen width */
+@media screen and (max-width:991px) {
+    #top-hero-carousel h1 {
+    font-size: 45px;
+    }
+}
+
+/* less than (<) 768px screen width */
 @media screen and (max-width:767px) {
     #hero h1 {
         font-size: 45px;
@@ -132,6 +140,7 @@ a {
     }
 }
 
+/* less than (<) 576px screen width */
 @media screen and (max-width:575px) {
     .appstore-imgs {
         max-width: 50%;
@@ -139,13 +148,14 @@ a {
     }
 }
 
-/* less than (<) 539px screen width */
+/* less than (<) 540px screen width */
 @media screen and (max-width:539px) {
     #comparism-table tbody {
         font-size: 0.8rem;
     }
 }
 
+/* less than (<) 472px screen width */
 @media screen and (max-width:471px) {
     #comparism-table tbody {
         font-size: 0.7rem;
