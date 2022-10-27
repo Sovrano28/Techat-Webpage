@@ -46,12 +46,18 @@ body {
     font-weight: 400;
 }
 
+#savemoney .img-fluid {
+    max-width: 80%;
+    height: auto;
+}
+
 #comparism-table h3 {
     font-size: 30px;
     font-weight: 400;
     color: #581c9c;
 }
 
+/* Footer Section*/
 #top-footer {
     background-color: #40196d;
     color: white;
@@ -75,9 +81,10 @@ a {
     color: white;
     background-color: hsl(268deg 63% 13%);
 }
+/*End*/
 
-
-
+/* Other screen sizes */
+/* less than (<) 767px screen width */
 @media screen and (max-width:767px) {
     #hero h1 {
         font-size: 45px;
@@ -100,8 +107,19 @@ a {
         max-width: 30%;
         height: auto;
     }
+
+    #easyclick-section .img-fluid {
+        max-width: 50%;
+        height: auto;
+    }
+
+    #savemoney .img-fluid {
+        max-width: 45%;
+        height: auto;
+    }
 }
 
+/* less than (<) 539px screen width */
 @media screen and (max-width:539px) {
     #comparism-table tbody {
         font-size: 0.8rem;
