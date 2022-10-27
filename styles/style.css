@@ -43,7 +43,7 @@ body {
 }
 
 #illustrations p {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #illustrations strong {
@@ -108,6 +108,10 @@ a {
         text-align: center;
     }
 
+    #illustrations p {
+        text-align: center;
+    }
+
     #comparism-table tbody {
         font-size: smaller;
     }
@@ -124,6 +128,13 @@ a {
 
     #savemoney .img-fluid {
         max-width: 45%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .appstore-imgs {
+        max-width: 50%;
         height: auto;
     }
 }
