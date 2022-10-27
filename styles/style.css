@@ -46,6 +46,10 @@ body {
     font-weight: 400;
 }
 
+#illustrations strong {
+    color: #581c9c;
+}
+
 #savemoney .img-fluid {
     max-width: 80%;
     height: auto;
@@ -97,6 +101,11 @@ a {
     #hero strong {
         font-size: 33.75px;
         font-weight: 600;
+    }
+
+    #illustrations h3 {
+        font-size: 25px;
+        text-align: center;
     }
 
     #comparism-table tbody {
