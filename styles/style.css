@@ -61,6 +61,11 @@ body {
     color: #581c9c;
 }
 
+.partners-imgs {
+    max-width: 80%;
+    height: auto;
+}
+
 /* Footer Section*/
 #top-footer {
     background-color: #40196d;
@@ -85,6 +90,7 @@ a {
     color: white;
     background-color: hsl(268deg 63% 13%);
 }
+
 /*End*/
 
 
@@ -92,7 +98,7 @@ a {
 /* less than (<) 992px screen width */
 @media screen and (max-width:991px) {
     #top-hero-carousel h1 {
-    font-size: 45px;
+        font-size: 45px;
     }
 }
 
@@ -105,7 +111,7 @@ a {
     #hero p {
         font-size: 30px;
     }
-    
+
     #hero strong {
         font-size: 33.75px;
         font-weight: 600;
@@ -137,6 +143,11 @@ a {
     #savemoney .img-fluid {
         max-width: 45%;
         height: auto;
+    }
+
+    #our-partners .col-md-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
     }
 }
 
