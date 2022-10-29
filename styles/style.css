@@ -126,6 +126,10 @@ a {
         text-align: center;
     }
 
+    #comparism-table h3 {
+        font-size: 25px;
+    }
+
     #comparism-table tbody {
         font-size: smaller;
     }
@@ -170,5 +174,11 @@ a {
 @media screen and (max-width:471px) {
     #comparism-table tbody {
         font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:446px) {
+    #comparism-table th {
+        font-size: 0.6rem;
     }
 }
