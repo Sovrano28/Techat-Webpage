@@ -6,5 +6,11 @@
     "Techat",
     "Techathon",
     "Zooom"
-  ]
+  ],
+  "liveServer.settings.port": 5510,
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  }
 }
